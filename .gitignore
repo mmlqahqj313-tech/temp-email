@@ -1,0 +1,23 @@
+# Gradle / Android build output
+.gradle/
+build/
+**/build/
+local.properties
+
+# IDE
+.idea/
+*.iml
+
+# Private signing material — NEVER commit these
+*.jks
+*.keystore
+*.p12
+*.pfx
+*-keystore*
+*-password*.txt
+SIGNING_PRIVATE*
+
+# Generated / local files
+captures/
+.externalNativeBuild/
+.cxx/
